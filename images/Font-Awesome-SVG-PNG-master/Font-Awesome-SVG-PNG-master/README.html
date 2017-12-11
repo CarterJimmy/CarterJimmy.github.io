@@ -1,0 +1,37 @@
+<h1 id="Font-Awesome-SVG-PNG"><a href="#Font-Awesome-SVG-PNG" class="headerlink" title="Font-Awesome-SVG-PNG"></a>Font-Awesome-SVG-PNG</h1><p>This project provides a Font-Awesome build split to individual SVG and PNG files of different sizes along with Node.JS based generator to generate any other colors and sizes combinations.</p>
+<h2 id="What-is-Font-Awesome"><a href="#What-is-Font-Awesome" class="headerlink" title="What is Font-Awesome?"></a>What is Font-Awesome?</h2><p>Font Awesome is a full suite of 675 pictographic icons for easy scalable vector graphics on websites, created and<br>maintained by <a href="http://twitter.com/davegandy">Dave Gandy</a>. Stay up to date <a href="http://twitter.com/fontawesome">@fontawesome</a>.</p>
+<p>Get started at <a href="http://fontawesome.io!">http://fontawesome.io!</a></p>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><ul>
+<li>The Font Awesome font is licensed under the SIL OFL 1.1:<ul>
+<li><a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a></li>
+</ul>
+</li>
+<li>Font-Awesome-SVG-PNG is licensed under the MIT license</li>
+</ul>
+<h2 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use?"></a>How to use?</h2><p>You may use already generated icons in <code>white</code> and <code>black</code> directories. You can also generate your own set:</p>
+<p>Note: you need to have a command <code>rsvg-convert</code> available.</p>
+<p>Install via npm: <code>npm install -g font-awesome-svg-png</code>.</p>
+<p>Install via Bower: <code>bower install font-awesome-svg-png</code>.</p>
+<p>The following command will generate a red set of icons at sizes of 128 and 256 pixels in directory <code>red</code>:<br><code>font-awesome-svg-png --color red --sizes 128,256</code></p>
+<h2 id="PNG-creation"><a href="#PNG-creation" class="headerlink" title="PNG creation"></a>PNG creation</h2><p>PNG creation depends on <code>rsvg-convert</code> command being in the path.</p>
+<p>You can skip PNG creation with <code>--no-png</code>.</p>
+<h3 id="Windows-support"><a href="#Windows-support" class="headerlink" title="Windows support"></a>Windows support</h3><ol>
+<li>Install node.js: <a href="https://nodejs.org/en/#download">https://nodejs.org/en/#download</a></li>
+<li>Open cmd.exe in the Font-Awesome-SVG-PNG directory</li>
+<li>Execute <code>npm install .</code></li>
+<li>Download <a href="https://osspack32.googlecode.com/files/rsvg-convert.exe">https://osspack32.googlecode.com/files/rsvg-convert.exe</a></li>
+<li>Add the directory of rsvg-convert.exe to your PATH</li>
+<li>Try it by executing <code>node font-awesome-svg-png --color gray --sizes 16</code></li>
+</ol>
+<h3 id="Mac-OS-X-support"><a href="#Mac-OS-X-support" class="headerlink" title="Mac OS X support"></a>Mac OS X support</h3><pre><code>sudo port install librsvg
+... or ...
+brew install librsvg
+</code></pre><p>That should give the necessary <code>rsvg-convert</code> command.</p>
+<p>WARNING: Starting from librsvg 2.40.11 and onwards <code>rsvg-convert</code> produces empty images due to a breaking change that was introduced. At moment there’s no workaround but to revert to librsvg 2.40.10 and below.</p>
+<h3 id="Linux-support"><a href="#Linux-support" class="headerlink" title="Linux support"></a>Linux support</h3><p>For Debian <code>rsvg-convert</code> in located in the <code>librsvg2-bin</code> package.</p>
+<pre><code class="sh">sudo apt-get install librsvg2-bin
+</code></pre>
+<h2 id="Authors"><a href="#Authors" class="headerlink" title="Authors"></a>Authors</h2><ul>
+<li>Damian Kaczmarek <a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#114;&#x75;&#115;&#104;&#64;&#x72;&#x75;&#x73;&#x68;&#x62;&#x61;&#x73;&#x65;&#x2e;&#110;&#101;&#116;">&#114;&#x75;&#115;&#104;&#64;&#x72;&#x75;&#x73;&#x68;&#x62;&#x61;&#x73;&#x65;&#x2e;&#110;&#101;&#116;</a> <a href="https://github.com/Rush">@Rush</a></li>
+<li>Dominykas Blyžė <a href="&#x6d;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x65;&#x6c;&#108;&#111;&#x40;&#x64;&#x6f;&#109;&#x69;&#x6e;&#x79;&#x6b;&#97;&#115;&#x2e;&#x63;&#x6f;&#x6d;">&#104;&#x65;&#x6c;&#108;&#111;&#x40;&#x64;&#x6f;&#109;&#x69;&#x6e;&#x79;&#x6b;&#97;&#115;&#x2e;&#x63;&#x6f;&#x6d;</a> <a href="https://github.com/dominykas">@dominykas</a></li>
+</ul>
