@@ -5,9 +5,9 @@
   <subtitle>Think Different</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://ca2te.com/"/>
   <updated>2017-12-11T15:45:57.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://ca2te.com/</id>
   
   <author>
     <name>Carter Jimmy</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/hello-world/"/>
-    <id>http://yoursite.com/hello-world/</id>
+    <link href="https://ca2te.com/hello-world/"/>
+    <id>https://ca2te.com/hello-world/</id>
     <published>2017-12-03T08:01:10.000Z</published>
     <updated>2017-12-11T15:45:57.000Z</updated>
     
