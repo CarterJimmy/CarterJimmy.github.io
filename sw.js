@@ -4,10 +4,12 @@ const __DEVELOPMENT__ = false;
 const __DEBUG__ = false;
 const offlineResources = ['/', '/offline.html', '/offline.svg'];
 const ignoreFetch = [
-	/https?:\/\/carters-blog.disqus.com\//, 
-	/chrome-extension:\/\//
+	/https?:\/\/carters-blog.disqus.com\//,
+	/chrome-extension:\/\//,
 	/https?:\/\/www.google-analytics.com\//,
 	/https?:\/\/cdn.bootcss.com\//,
+	/https?:\/\/cdn.jsdelivr.net\//,
+	/https?:\/\/maxcdn.bootstrapcdn.com\//,
 ];
 
 function onInstall(event) {
