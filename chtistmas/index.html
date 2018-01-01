@@ -6,6 +6,13 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- 引用CDN -->
 
+  <script>
+  if ('serviceWorker' in navigator) {navigator.serviceWorker.register('/sw.js');
+  }
+  </script>
+
+  <!-- Check the browser support ServiceWorker or not -->
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -183,10 +190,10 @@
 <p>Merry Christmas🎄</p>
 </blockquote>
 <a id="more"></a>
-<div id="aplayer1" class="aplayer" style="margin-bottom: 20px;"></div>
+<div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			var ap = new APlayer({
-				element: document.getElementById("aplayer1"),
+				element: document.getElementById("aplayer0"),
 				narrow: false,
 				autoplay: false,
 				showlrc: 0,
