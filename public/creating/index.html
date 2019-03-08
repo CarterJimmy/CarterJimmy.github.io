@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.8.0">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- 引用CDN -->
+  <link rel="prefetch" href="https://dha4w82d62smt.cloudfront.net/items/3w2J3I1z1U3G1t472h2A/C.png">
+  <link rel="subresource" href="./css/style.css"> 
+  <!-- prefetch For Icon and style.css -->
+
+  <script>
+  if ('serviceWorker' in navigator) {
+   navigator.serviceWorker.register('/sw.js');
+  }
+  </script>
+
+  <!-- Check the browser support ServiceWorker or not -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--Description-->
+  
+
+  <!--Author-->
+  
+  <meta name="author" content="Carter Jimmy">
+  
+
+  <!--Open Graph Title-->
+  
+      <meta property="og:title" content="Creating">
+  
+  <!--Open Graph Description-->
+  
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="Carter Jimmy">
+  <!--Type page-->
+  
+      <meta property="og:type" content="article">
+  
+  <!--Page Cover-->
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Title -->
+  
+  <title>Creating - Carter Jimmy</title>
+
+
+  <link rel="shortcut icon" href="https://cl.ly/073Y3j470U2X/favicon.png">
+
+  <!-- Custom CSS/Sass -->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- 加载进度条Pace的CDN读取以及颜色调整 -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.js"></script>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/black/pace-theme-flash.min.css" rel="stylesheet">
+  <style>
+    .pace .pace-progress {
+    	background: #00897B; /*进度条颜色*/
+    	height: 3px;
+    }
+    .pace .pace-progress-inner {
+     	box-shadow: 0 0 10px #1E92FB, 0 0 5px #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+    	border-top-color: #00897B;	/*上边框颜色*/
+    	border-left-color: #00897B;	/*左边框颜色*/
+    }
+  </style>
+  <!----------------------------
+  https://github.com/GallenHu/hexo-theme-Daily
+
+ _____            _   _
+|  __ \          (_) | |
+| |  | |   __ _   _  | |  _   _
+| |  | |  / _` | | | | | | | | |
+| |__| | | (_| | | | | | | |_| |
+|_____/   \__,_| |_| |_|  \__, |
+                          __/ |
+                         |___/
+
+    --------------------------->
+
+</head>
+
+
+<body>
+
+  <!-- Nav -->
+  <header class="site-header">
+  <div class="header-inside">
+    <div class="logo">
+      <a href="/" rel="home">
+        
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="https://cl.ly/2r000P311v3X/C.png" alt="Carter Jimmy" height="60">
+        
+      </a>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse">
+        <ul class="navbar-nav">
+          
+          
+            <li>
+              <a href="/.">
+                
+                  Home
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/archives">
+                
+                  Archive
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/links">
+                
+                  Links
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/about">
+                
+                  About
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/atom.xml">
+                
+                  RSS
+                
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+    <div class="button-wrap">
+      <button class="menu-toggle">Primary Menu</button>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Main Content -->
+  
+<div class="content-area">
+  <div class="post">
+    <!-- Post Content -->
+    <div class="container">
+      <article>
+        <!-- Title date & tags -->
+        <div class="post-header">
+          <h1 class="entry-title">
+            Creating
+            
+          </h1>
+          <p class="posted-on">
+          2017-12-24
+          </p>
+          <div class="tags-links">
+            
+              
+                <a href="/tags/日常/" rel="tag">
+                  日常
+                </a>
+              
+                <a href="/tags/茶余饭后/" rel="tag">
+                  茶余饭后
+                </a>
+              
+            
+          </div>
+        </div>
+        <!-- Post Main Content -->
+        <div class="entry-content">
+          <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="https://cl.ly/3f0Q443M2o0r/Creating.jpg" alt></p>
+<blockquote>
+<p>一场源于理想与现实的矛盾</p>
+</blockquote>
+<a id="more"></a>
+<p>编写主题，这个想法并不是一时头脑发热的产物。事实上，早在第二代博客的时候（详见关于页面）就有萌生过这个想法，只是无奈没有时间和足够的精力供我研究。时到今日，算是有那么一丁点的时间可以让我肆意折腾，只不过，我发现我貌似不怎么适合搞前端。</p>
+<p>重开博客客这个主意是2017年的6月份左右浮现出来的，只不过一如既往的深陷拖延症，直至10月份才搭建好平台，选好Theme。本以为摆脱了懒癌后，殊不知它又悄无声息地袭来，以至于前两天才调试好主题，买好域名，并且<code>hexo g -d</code>。尽管他还仅仅是个半成品。</p>
+<p>对于<strong>HEXO</strong>这个静态页面生成器，我了解的也不多。最初也是通过 <a href="https://jimmycai.com/" target="_blank" rel="noopener">Jimmy dalao</a> 的文章才让我对它若有所闻的。不过那时候对它的认识也不过停留在名字罢了。从真正接触HEXO至今也不过4个月而已。当时的我正在为改选什么博客程序而费尽心机。由于前两代的博客都是采用了Wordpress这套超囊肿程序，所以这次打算试试，更Silent的，更容易上手，更简洁的程序，可是放眼望去，Typecho，Farbox，Hugo，Bitcorn，Jekyll，Hexo等优秀的博客程序可以说是一个接一个，源源不断的出现在视野里。从这些程序里选任意一个都可以轻而易举地满足我的需求了。只是，这对于我这么一个选择恐惧症患者来说，是一件十分痛苦的事情。毕竟我可以为了买哪种零食而纠结半个小时（苦笑）。况且，我也不好问别人这种低级问题，所以只好在网上一直爬文章，直至我决定使用Hexo作为我的博客程序。</p>
+<p>在Github上托管好Hexo的时候已经是10月底了。本以为万事俱备，只欠东风。然而，Hexo的Theme页面上的众多主题没有一个可以满足我那挑剔的审美。说是只欠主题，然而我在选主题这方面花了足足一个半月。就在我花了将近一个月在挑主题的时候，我突然想到为什么我不去造轮子。<s>（简直智障）</s> 于是我就开始挖坑，爬官方文档。然而，「这活不是人干的啊」。看HEXO的官方文档的时候，那感觉就像在看天书；看某些大触的博文也是全程黑人问号。对于一个完全对ejs, yaml, css, js不熟悉的人来说，毫无基础的情况下搞网络，搞前端完全就是自虐。读了一下午的文档仍是一头雾水。好不容易写了个模版出来，结果本地测试的时候一直报错。一气之下找了一个比较符合我审美的主题，也就是现在的<code>Daily</code> 。本以为博客可以上线了，然而主题各种不顺心。首先最受不了的就是不支持Fontawesome，以至于我在Footer加联系方式的时候，根本没有矢量图标显示。本以为安装了<code>hexo-tag-fontawesome</code>就可以解决问题了，只是事不如愿。安装后在主题Footer文件添加了引用代码，可是页脚还是一片空白。足足花了接近1星期才解决了呢问题。以其说是解决，其实只不过逃避了问题罢了。因为，我仅仅是把引用方式从插件换成本地Source罢了。不过至少可以用，所以我也不管那么多了。烦人的问题还不止这个，比如说搜索系统竟然是用Google的<code>site:网站_关键词</code>代码 ，而不是本地/第三方搜索系统；移动端又出现错位显示，图标不出现等等…</p>
+<p>说实话要改善的地方太多了。只是，我现在的技术并不足以修复所有问题。正如引言所说的：</p>
+<blockquote>
+<p>一场源于理想与现实的矛盾</p>
+</blockquote>
+<p>理想是美好的，理想中的主题很美，很简洁，问题是现实的我没有足够的技术去写出理想中的主题，说难听一些，就是眼高手低。其实我很佩服那些Github上一天Commit2，3次的那些业余程序猿。尽管编写程序不是他们的主业，尽管他们也需要娱乐时间（或许写代码对于他们来说就是一种娱乐），可是他们仍然可以保持如此高的更新频率。反观自己，一周一更都做不到，就更别说每天敲代码了。虽然说我可以用学生这个Tag作为借口，不过也只是仅仅一个借口而已。同龄人有大把比自己混的好的，学业上的，技术上的。再不发奋图强，估计我就要迷失在被称为“一般人”的茫茫大海之中了。</p>
+<p>我把博客的修改要项放在最后，作为结尾。大家可以监督一下进度，也可以提一下意见。反正目前我能做的，也只是修改别人的主题罢了。</p>
+<h1>前端</h1>
+<ul>
+<li><input type="checkbox" id="checkbox0" checked="true"><label for="checkbox0">搜索框触发效果</label></li>
+<li><input type="checkbox" id="checkbox1"><label for="checkbox1">重写主题模版</label></li>
+<li><input type="checkbox" id="checkbox2" checked="true"><label for="checkbox2">移动端显示错位问题的解决</label></li>
+<li><input type="checkbox" id="checkbox3" checked="true"><label for="checkbox3">Markdown渲染器更换</label></li>
+<li><input type="checkbox" id="checkbox4"><label for="checkbox4">字体更换</label></li>
+<li><input type="checkbox" id="checkbox5"><label for="checkbox5">阴影效果</label></li>
+</ul>
+<h1>后端</h1>
+<ul>
+<li><input type="checkbox" id="checkbox6"><label for="checkbox6">本地搜索系统搭建</label></li>
+<li><input type="checkbox" id="checkbox7"><label for="checkbox7">本地评论系统搭建</label></li>
+<li><input type="checkbox" id="checkbox8"><label for="checkbox8">解决文章前缀含有日期时报错的问题</label></li>
+<li><input type="checkbox" id="checkbox9"><label for="checkbox9">整理底层文件</label></li>
+</ul>
+<blockquote>
+<p>Wish You Have A Good Day.</p>
+</blockquote>
+
+        </div>
+      </article>
+    </div>
+    <!-- Comments -->
+    <div class="container">
+      
+<section id="comment">
+  <!-- <h1 class="title">Comments</h1> -->
+
+  
+
+    <div style="text-align:center;">
+      <button id="load-disqus" onclick="disqus.load();">加载 Disqus 评论 (请确保能正常访问Disqus) </button>
+    </div>
+<!-- Definition For Click2Load Disqus -->
+<!-- 点击加载Disqus评论设置 -->
+
+  <div id="disqus_thread">
+    <script type="text/javascript">
+    var disqus_config = function () {
+          this.page.url = window.location.href;
+          this.page.identifier = 'post-creating';
+          this.page.title = 'Creating';
+      };
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+
+
+  
+</section>
+
+
+    </div>
+    <!-- Pre or Next -->
+    <div class="nav-links">
+      
+        <div class="nav-previous">
+          <a href="/chtistmas/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> Newer Posts</a>
+        </div>
+      
+      
+        <div class="nav-next">
+          <a href="/hello-world/" rel="prev">Previous Posts <span class="meta-arraw meta-arraw-right"></span></a>
+        </div>
+      
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <!-- Footer-widgets -->
+<div class="footer-widgets">
+  <div class="row inside-wrapper">
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">About</h1>
+        <div class="custom-widget-content">
+          
+          <div><a align="center">专注记录技术与生活</a></div>
+        </div>
+      </aside>
+    </div>
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">Contact</h1>
+        <div class="widget-text">
+          
+            
+              <a href="https://github.com/CarterJimmy" class="fa fa-github fa-2x" target="_blank"></a>
+            
+              <a href="https://www.flickr.com/photos/146675969@N03/" class="fa fa-flickr fa-2x" target="_blank"></a>
+            
+              <a href="https://t.me/carterjimmy/" class="fa fa-telegram fa-2x" target="_blank"></a>
+            
+            <!-- 同上 -->
+          
+        </div>
+      </aside>
+    </div>
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">Search</h1>
+        <div class="widget-text">
+          <form onsubmit="return appDaily.submitSearch('')">
+            <div>
+              <!-- 定义搜索框类型等，且光标触发搜索框时Value内的字样消失-->
+              <input type="text" style="text-align: center" id="homeSearchInput" value="..." onkeydown="if (event.keyCode==20) {}" onblur="if(this.value=='')value='...';" onfocus="if(this.value=='...')value='';">
+            </div>
+            <!-- <input type="submit" value="GO"> -->
+          </form>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="site-info">
+  <p>
+    <span>Carter Jimmy &copy; 2019</span>
+    
+      <span class="split">|</span>
+      <span>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> with Theme <a href="https://github.com/GallenHu/hexo-theme-Daily" target="_blank">Daily</a></span>
+    
+  </p>
+  <!-- time -->
+    <div id="show-time">
+      <span id="span_dt_dt"></span>
+    </div>
+    <script>
+        function show_date_time() {
+          window.setTimeout("show_date_time()", 1000);
+          BirthDay = new Date("12/12/2017 01:24:30");
+          today = new Date();
+          //总时间
+          timeold = (today.getTime() - BirthDay.getTime());
+          sectimeold = timeold / 1000
+          secondsold = Math.floor(sectimeold);
+          msPerDay = 24 * 60 * 60 * 1000
+          e_daysold = timeold / msPerDay
+          daysold = Math.floor(e_daysold);
+          e_hrsold = (e_daysold - daysold) * 24;
+          hrsold = Math.floor(e_hrsold);
+          e_minsold = (e_hrsold - hrsold) * 60;
+          minsold = Math.floor((e_hrsold - hrsold) * 60);
+          seconds = Math.floor((e_minsold - minsold) * 60);
+          span_dt_dt.innerHTML = "本站已运行 " + daysold + " 天 " + hrsold + " 小时 " + minsold + " 分 " + seconds + " 秒";
+      }
+  show_date_time();
+    </script>
+</footer>
+
+
+  <!-- After footer scripts -->
+  <!-- scripts -->
+<script src="/js/app.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js/"></script>
+<!-- 引用JQuery库 -->
+<script>
+
+
+  
+  var disqus_url = 'ca2te.com/creating/';
+  
+
+/// Not to load disqus before users click the botton
+/// 不加载Disqus直到用户点击
+
+var disqus = {
+  load : function disqus(){
+      var disqus_shortname = 'carters-blog';
+      if(typeof DISQUS !== 'object') {
+        (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        $('#load-disqus').remove(); ///加载后移除按钮
+
+
+      }
+  }
+}
+
+</script>
+
+
+
+
+
+
+<script>!function(o){var i=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function c(t,e){var n=new Image,o=t.getAttribute("data-original");n.onload=function(){t.src=o,e&&e()},n.src=o}function n(){for(var t=0;t<i.length;t++)e=i[t],void 0,0<=(n=e.getBoundingClientRect()).top&&0<=n.left&&n.top<=(o.innerHeight||document.documentElement.clientHeight)&&c(i[t],function(){i.splice(t,t)});var e,n;console.log("trigger")}n(),o.addEventListener("scroll",function(){var t,e;t=n,e=o,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+
+</html>
