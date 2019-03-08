@@ -5,7 +5,7 @@ layout: post
 
 
 # **关于我**
-<img src='https://dha4w82d62smt.cloudfront.net/items/2E05363w3V2l0F3L083C/CA%20Logo.png?' align='right' style=' width:200px;height:200 px'/>
+<img src='https://cl.ly/0J1w3Q2q0o3z/CA%20Logo.png' align='right' style=' width:200px;height:200 px'/>
 
 · 高中生
 · 喜欢摄影，拍Vlog，平面设计，制图，后期，程序开发，航天器，折腾

@@ -8,7 +8,7 @@ subtitle: Think Different
 description:
 author: Carter Jimmy
 language:
-timezone: UTC+9
+timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -138,7 +138,7 @@ markdown:
 lazyload:
   enable: true
   onlypost: false
-  loadingImg: 
+  loadingImg:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
