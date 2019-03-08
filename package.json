@@ -22,7 +22,12 @@
     "hexo-server": "^0.3.3",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-tag-fontawesome": "^1.0.0",
+    "markdown-it-abbr": "^1.0.4",
     "markdown-it-checkbox": "^1.1.0",
-    "markdown-it-emoji": "^1.4.0"
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-ins": "^2.0.0",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0"
   }
 }
