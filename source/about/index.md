@@ -20,7 +20,7 @@ layout: post
 · iMac 21.5 inch Mid 2013 Late & 2010 Late
 · Thinkpad W540
 · iPad Mini 4
-· VIAO
+· ~~VIAO~~
 
 
 ***
@@ -87,10 +87,5 @@ layout: post
 ***
 
 # **服务以及捐助**
-· Shadowsocks代理服务 （付费订阅制）
-
-> Server端搭建于Raspberry Pi 3
->
-> 目前还没确认是否开启该服务，有此需求的访客可以留言，根据需求情况决定。
 
 · 推广链接：[Dropbox](https://db.tt/JROjAFY7Np)(注册可+500MB)

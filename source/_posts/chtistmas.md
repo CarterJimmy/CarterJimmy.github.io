@@ -12,7 +12,7 @@ tag::
 
 <!--more-->
 
-{% aplayer "Hallelujah" "Pentatonix" https://cl.ly/0O0j2f0d1M0i/download/Hallelujah%20-%20Pentatonix%20.mp3 https://dha4w82d62smt.cloudfront.net/items/1o2T1r2n0R0G3D340a0Z/Hallelujah.jpg %}
+{% aplayer "Hallelujah" "Pentatonix" https://cl.ly/0O0j2f0d1M0i/download/Hallelujah%20-%20Pentatonix%20.mp3 https://cl.ly/1l282b261C2o/Hallelujah.jpg %}
 
 
 
