@@ -5,8 +5,8 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- 引用CDN -->
-  <link rel="prefetch" href="https://dha4w82d62smt.cloudfront.net/items/3w2J3I1z1U3G1t472h2A/C.png">
-  <link rel="subresource" href="./css/style.css"> 
+  <link rel="prefetch" href="https://cl.ly/2r000P311v3X/C.png">
+  <link rel="subresource" href="./css/style.css">
   <!-- prefetch For Icon and style.css -->
 
   <script>
@@ -70,7 +70,7 @@
     	border-left-color: #00897B;	/*左边框颜色*/
     }
   </style>
-  <!----------------------------
+  <!---
   https://github.com/GallenHu/hexo-theme-Daily
 
  _____            _   _
@@ -167,6 +167,26 @@
 
   <!-- Main Content -->
   
+<script>
+$(document).ready(function(){
+  $("nav-links").hide();
+  $(function(){
+    //检测屏幕高度
+    var height=$(window).height();
+    //scroll()方法为滚动事件
+    $(window).scroll(function(){
+        if ($(window).scrollTop()>height){
+           $("nav-links").fadeIn(500);
+        }else{
+           $("nav-links").fadeOut(500);
+        }
+    });
+  });
+});
+</script>
+
+
+
 <div class="content-area">
   <div class="post">
     <!-- Post Content -->
@@ -179,7 +199,7 @@
             
           </h1>
           <p class="posted-on">
-          2019-03-09
+          2019-03-11
           </p>
           <div class="tags-links">
             
@@ -199,7 +219,7 @@
 · iMac 21.5 inch Mid 2013 Late &amp; 2010 Late<br>
 · Thinkpad W540<br>
 · iPad Mini 4<br>
-· VIAO</p>
+· <s>VIAO</s></p>
 <hr>
 <h1>关于本站</h1>
 <h3 id="定位与内容"><a class="header-anchor" href="#定位与内容">¶</a>定位与内容</h3>
@@ -275,11 +295,6 @@
 <p>本站已稳定运行 <strong><span class="sidebar-badge" id="htmer_time"></span></strong></p>
 <hr>
 <h1><strong>服务以及捐助</strong></h1>
-<p>· Shadowsocks代理服务 （付费订阅制）</p>
-<blockquote>
-<p>Server端搭建于Raspberry Pi 3</p>
-<p>目前还没确认是否开启该服务，有此需求的访客可以留言，根据需求情况决定。</p>
-</blockquote>
 <p>· 推广链接：<a href="https://db.tt/JROjAFY7Np" target="_blank" rel="noopener">Dropbox</a>(注册可+500MB)</p>
 
         </div>
@@ -294,7 +309,7 @@
   
 
     <div style="text-align:center;">
-      <button id="load-disqus" onclick="disqus.load();">加载 Disqus 评论 (请确保能正常访问Disqus) </button>
+      <button id="load-disqus" onclick="disqus.load(); this.style.visibility='hidden';">加载 Disqus 评论 (请确保能正常访问Disqus) </button>
     </div>
 <!-- Definition For Click2Load Disqus -->
 <!-- 点击加载Disqus评论设置 -->
@@ -317,6 +332,8 @@
 
     </div>
     <!-- Pre or Next -->
+
+
     <div class="nav-links">
       
       
@@ -436,9 +453,6 @@ var disqus = {
         s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
         }());
-        $('#load-disqus').remove(); ///加载后移除按钮
-
-
       }
   }
 }

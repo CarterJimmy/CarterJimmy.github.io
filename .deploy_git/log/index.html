@@ -5,8 +5,8 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- 引用CDN -->
-  <link rel="prefetch" href="https://dha4w82d62smt.cloudfront.net/items/3w2J3I1z1U3G1t472h2A/C.png">
-  <link rel="subresource" href="./css/style.css"> 
+  <link rel="prefetch" href="https://cl.ly/2r000P311v3X/C.png">
+  <link rel="subresource" href="./css/style.css">
   <!-- prefetch For Icon and style.css -->
 
   <script>
@@ -70,7 +70,7 @@
     	border-left-color: #00897B;	/*左边框颜色*/
     }
   </style>
-  <!----------------------------
+  <!---
   https://github.com/GallenHu/hexo-theme-Daily
 
  _____            _   _
@@ -167,6 +167,26 @@
 
   <!-- Main Content -->
   
+<script>
+$(document).ready(function(){
+  $("nav-links").hide();
+  $(function(){
+    //检测屏幕高度
+    var height=$(window).height();
+    //scroll()方法为滚动事件
+    $(window).scroll(function(){
+        if ($(window).scrollTop()>height){
+           $("nav-links").fadeIn(500);
+        }else{
+           $("nav-links").fadeOut(500);
+        }
+    });
+  });
+});
+</script>
+
+
+
 <div class="content-area">
   <div class="post">
     <!-- Post Content -->
@@ -179,7 +199,7 @@
             
           </h1>
           <p class="posted-on">
-          2019-03-09
+          2019-03-10
           </p>
           <div class="tags-links">
             
@@ -246,6 +266,20 @@
 <li>更新依赖库</li>
 </ul>
 </li>
+<li>2019.3.9
+<ul>
+<li>添加Google Analytics统计代码</li>
+<li>精简代码</li>
+<li>修改部分前端代码</li>
+</ul>
+</li>
+<li>2019.3.10
+<ul>
+<li>修改部分前端代码</li>
+<li>修复部分Bug</li>
+<li>删除部分冗余代码</li>
+</ul>
+</li>
 </ul>
 
         </div>
@@ -257,6 +291,8 @@
 
     </div>
     <!-- Pre or Next -->
+
+
     <div class="nav-links">
       
       
@@ -376,9 +412,6 @@ var disqus = {
         s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
         }());
-        $('#load-disqus').remove(); ///加载后移除按钮
-
-
       }
   }
 }

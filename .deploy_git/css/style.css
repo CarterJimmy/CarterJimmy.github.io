@@ -835,6 +835,10 @@ Footer
     color: #3769c9;
     opacity: 0.8; }
 
+::selection {
+  background: #27afa5;
+  color: #f7f7f7; }
+
 /*
  * From https://github.com/pinggod/hexo-theme-apollo/blob/master/source/scss/_partial/post.scss
  */
